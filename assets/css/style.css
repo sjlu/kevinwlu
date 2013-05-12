@@ -9698,8 +9698,11 @@ ul.icons li .icon-large:before {
  */
 
 #photo {
-  border: 1px solid #ddd;
   margin: 20px 10px;
+}
+
+#photo img {
+  border: 1px solid #ddd;
   padding: 5px;
 }
 
@@ -9709,13 +9712,13 @@ ul.icons li .icon-large:before {
 }
 
 #info #name {
-  font-size: 28px;
+  font-size: 23px;
   font-weight: 600;
 }
 
 #info #title {
   margin-top: 6px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -9741,11 +9744,37 @@ hr {
   border-bottom: 1px solid #ddd;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 100%;
 }
 
 .section .content {
   margin: 0;
   padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  #info #name {
+    font-size: 16px;
+  }
+  #info #title {
+    margin-top: 0px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  #photo {
+    text-align: center;
+  }
+  #info {
+    text-align: center;
+  }
+  #social {
+    text-align: center;
+  }
+  hr {
+    margin: 0 auto;
+    max-width: 300px;
+  }
 }
