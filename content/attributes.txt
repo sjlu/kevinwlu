@@ -1,0 +1,7 @@
+name: Kevin W. Lu, D.Sc.
+title: Senior Principal Scientist
+email: klu@ieee.org
+linkedin: http://www.linkedin.com/in/kevinwlu
+twitter: kevinwlu
+keywords: kevin lu, telcordia, broadcom, scientist, telecom, research
+description: Kevin is father, Senior Principal Scientist at Broadcom, and a member of IEEE-SA Standards Board.

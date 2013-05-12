@@ -6,17 +6,17 @@
 			</div>
 			<div id="info">
 				<div id="name">
-					Kevin W. Lu, D.Sc.
+					<?= $attributes['name'] ?>
 				</div>
 				<div id="title">
-					Senior Principal Scientist
+					<?= $attributes['title'] ?>
 				</div>
 			</div>
 			<hr />
 			<div id="social">
-				<div><i class="icon-envelope"></i> <a href="mailto:klu@ieee.org">klu@ieee.org</a></div>
-				<div><i class="icon-linkedin-sign"></i> <a href="http://www.linkedin.com/in/kevinwlu" target="_new">LinkedIn Profile</a></div>
-				<div><i class="icon-twitter-sign"></i> <a href="https://twitter.com/kevinwlu" target="_new">@kevinwlu</a></div>
+				<div><i class="icon-envelope"></i> <a href="mailto:<?= $attributes['email'] ?>"><?= $attributes['email'] ?></a></div>
+				<div><i class="icon-linkedin-sign"></i> <a href="<?= $attributes['linkedin'] ?>" target="_new">LinkedIn Profile</a></div>
+				<div><i class="icon-twitter-sign"></i> <a href="https://twitter.com/<?= $attributes['twitter'] ?>" target="_new">@<?= $attributes['twitter'] ?></a></div>
 			</div>
 		</div>
 		<div class="span9">

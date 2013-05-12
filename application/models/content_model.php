@@ -23,6 +23,26 @@ class Content_model extends CI_Model
 		return $input;
 	}
 
+	private function _attr($input)
+	{
+		$output = array();
+		$lines = explode("\n", $input);
+
+		foreach ($lines as &$line)
+		{
+			$data = explode(":", $line, 2);
+			if (count($data) < 2)
+				continue;
+
+			$key = trim($data[0]);
+			$value = trim($data[1]);
+
+			$output[$key] = $value;
+		}
+
+		return $output;
+	}
+
     private function _parse($map, $path)
     {
         $output = array();
@@ -32,6 +52,11 @@ class Content_model extends CI_Model
             $output[$this->get_title($object)] = $this->_text($path . '/' . $object);
 
         return $output;
+    }
+
+    function get_attributes()
+    {
+    	return $this->_attr(read_file('content/attributes.txt'));
     }
 
 	function get_sections()
