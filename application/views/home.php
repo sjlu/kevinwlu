@@ -15,7 +15,7 @@
 			<hr />
 			<div id="social">
 				<div><i class="icon-envelope"></i> <a href="mailto:klu@ieee.org">klu@ieee.org</a></div>
-				<div><i class="icon-linkedin-sign"></i> <a href="http://www.linkedin.com/profile/view?id=3722048" target="_new">LinkedIn Profile</a></div>
+				<div><i class="icon-linkedin-sign"></i> <a href="http://www.linkedin.com/in/kevinwlu" target="_new">LinkedIn Profile</a></div>
 				<div><i class="icon-twitter-sign"></i> <a href="https://twitter.com/kevinwlu" target="_new">@kevinwlu</a></div>
 			</div>
 		</div>
