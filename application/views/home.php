@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="span3">
 			<div id="photo">
-				<img src="http://www.gravatar.com/avatar/<?= md5('kevin.wen.lu@gmail.com') ?>?s=450" />
+				<img src="http://www.gravatar.com/avatar/<?= md5('kevin.wen.lu@gmail.com') ?>?s=300" />
 			</div>
 			<div id="info">
 				<div id="name">
